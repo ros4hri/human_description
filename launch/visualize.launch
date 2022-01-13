@@ -1,0 +1,10 @@
+<launch>
+    <param name="robot_description" command="$(find xacro)/xacro 
+                                            $(find human_description)/urdf/human-tpl.xacro
+                                            height:=1.7" />
+
+    <node pkg="robot_state_publisher" type="robot_state_publisher" name="human_publisher" required="true" ></node>
+    <node pkg="joint_state_publisher_gui" type="joint_state_publisher_gui" name="joint_state_publisher"></node>
+    <node pkg="rviz" type="rviz" name="rviz"></node>
+
+</launch>
