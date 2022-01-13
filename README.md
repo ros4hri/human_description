@@ -2,7 +2,7 @@
 
 Parametric kinematic model of humans, in URDF format, for usage in robotics and HRI
 
-![doc/rviz_human.png](Human model, rendered in rviz)
+![Human model, rendered in rviz](doc/rviz_human.png)
 
 ## Testing
 
