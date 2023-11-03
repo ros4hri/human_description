@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+  <include file="$(find urdf_test)/launch/test_urdf.launch">
+    <arg name="get_description" value="true"/>
+  </include>
+</launch>
+
