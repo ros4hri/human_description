@@ -2,8 +2,8 @@
 Changelog for package human_description
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-Forthcoming
------------
+2.0.1 (2023-11-13)
+------------------
 * port to ROS2 humble
 * Contributors: Séverin Lemaignan
 
