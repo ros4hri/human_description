@@ -195,7 +195,7 @@
         </link>
         <joint name="${suffix}_y_shoulder_${id}" type="revolute">
             <axis xyz="0 0 ${reflect * -1}" />
-            <limit effort="1000" lower="-1.7" upper="1.1" velocity="0.5" />
+            <limit effort="1000" lower="-1.1" upper="1.9" velocity="0.5" />
             <parent link="${parent}"/>
             <child link="${suffix}_y_shoulder_${id}"/>
             <origin rpy="0 0 0" xyz="0 ${reflect * neck_shoulder_length} 0" />
