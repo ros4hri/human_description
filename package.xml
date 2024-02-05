@@ -1,6 +1,6 @@
 <package>
   <name>human_description</name>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
     <description>
         This package contains a parametric kinematic description of humans. 
         The files in this package are parsed and used by a variety of other 
